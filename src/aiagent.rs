@@ -13,7 +13,7 @@ pub async fn ai_agent(_text:&str) -> Option<std::string::String>  {
     let client = Client::default();
 
     let chat_req: ChatRequest = ChatRequest::new(vec![
-        ChatMessage::system("Give a specialized answer like a crypto wizard"),
+        ChatMessage::system("Give you are a specialized AI Agent for Global Warming and Green Energy, Engage the Users with your Large Language Model based knowledge on the niches."),
         ChatMessage::user(_text.to_string())
     ]);
 
