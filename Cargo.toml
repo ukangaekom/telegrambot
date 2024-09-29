@@ -1,0 +1,17 @@
+[package]
+name = "telegrambot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+frankenstein = "0.32.1"
+
+
+# -- Async
+
+tokio = {version="1", features = ["full"]}
+
+# -- AI
+
+genai = "=0.1.7"
+dotenv-flow = "0.16.2"
