@@ -11,7 +11,7 @@ use aiagent::ai_agent;
 
 
 
-static TOKEN: &str = "7371234570:AAFgNG9mOWPs8z7Sz_7xTOwUEOJibf6LzH8";
+
 
 fn main() {
 
